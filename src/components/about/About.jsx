@@ -23,7 +23,7 @@ const About = () => {
             leadership capabilities.
           </p>
           
-          <a id="resume-link-2"  href={"../../Assets/Sourav_Biswas_Resume.pdf"} download target="_blank" className="button button--flex">
+          <a id="resume-link-2 resume-button-2"  href={"../../Assets/Sourav_Biswas_Resume.pdf"} download target="_blank" className="button button--flex">
             Resume
             <svg
               class="button__icon"

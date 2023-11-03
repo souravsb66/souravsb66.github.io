@@ -1,8 +1,8 @@
-import React from 'react'
-import "./home.css"
-import Social from './Social'
-import Data from './Data'
-import ScrollDown from './ScrollDown'
+import React from "react";
+import "./home.css";
+import Social from "./Social";
+import Data from "./Data";
+import ScrollDown from "./ScrollDown";
 
 const Home = () => {
   return (
@@ -11,14 +11,14 @@ const Home = () => {
         <div className="home__content grid">
           <Social />
 
-          <div className="home__img"></div>
+          <div className="home__img home-img"></div>
 
           <Data />
         </div>
         <ScrollDown />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkCard = ({image, title, category}) => {
   return (
-    <div className="work__card">
+    <div className="work__card project-card">
         <img src={image} className='work__img' />
         <h3 className='work__title'>{title}</h3>
         <a href="#" className='work__button'>

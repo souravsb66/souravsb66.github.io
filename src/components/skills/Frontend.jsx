@@ -7,7 +7,7 @@ const Frontend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
+          <div className="skills__data skills-card">
             <i class='bx bxs-badge-check' ></i>
 
             <div>
@@ -16,7 +16,7 @@ const Frontend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data skills-card">
             <i class='bx bxs-badge-check' ></i>
 
             <div>
@@ -25,7 +25,7 @@ const Frontend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data skills-card">
             <i class='bx bxs-badge-check' ></i>
 
             <div>
@@ -35,7 +35,7 @@ const Frontend = () => {
           </div>
         </div>
 
-        <div className="skills__group">
+        <div className="skills__group skills-card">
           <div className="skills__data">
             <i class='bx bxs-badge-check' ></i>
 
@@ -45,7 +45,7 @@ const Frontend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data skills-card">
             <i class='bx bxs-badge-check' ></i>
 
             <div>
@@ -54,7 +54,7 @@ const Frontend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data skills-card">
             <i class='bx bxs-badge-check' ></i>
 
             <div>
