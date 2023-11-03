@@ -1,14 +1,18 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./contacts.css";
 
 const Contacts = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_w40t68n', 'template_uwtlroy', form.current, '8V-74UE5K0qRryKI9')
+    emailjs.sendForm(
+      "service_w40t68n",
+      "template_uwtlroy",
+      form.current,
+      "8V-74UE5K0qRryKI9"
+    );
     e.target.reset();
   };
 
@@ -22,7 +26,7 @@ const Contacts = () => {
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contant__info">
-            <div className="contact__card">
+            <div className="contact__card" id="contact-email">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
@@ -37,7 +41,7 @@ const Contacts = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div className="contact__card" id="contact-phone">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
@@ -53,13 +57,13 @@ const Contacts = () => {
               </a>
             </div>
 
-            <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+            <div className="contact__card" id="contact-github">
+              <i className="bx bxl-github contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+91-8145731054</span>
+              <h3 className="contact__card-title">Github</h3>
+              <span className="contact__card-data">souravsb66</span>
 
-              <a href="" className="contact__button">
+              <a href="https://github.com/souravsb66" target="_blank" className="contact__button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -70,7 +74,7 @@ const Contacts = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write to me</h3>
 
-          <form  ref={form} onSubmit={sendEmail} className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input

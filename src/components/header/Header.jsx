@@ -91,8 +91,22 @@ const Header = () => {
               </a>
             </li>
 
-            <li id="resume-link-1 resume-button-1" className="nav__item nav-link resume" onClick={() => window.open("https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing")}>
-              <a href={"../../Assets/Sourav_Biswas_Resume.pdf"} download target="_blank" className="button-small button--flex">
+            <li
+              id="resume-link-1"
+              className="nav__item nav-link resume"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
+                )
+              }
+            >
+              <a
+                href={"../../Assets/Sourav_Biswas_Resume.pdf"}
+                download
+                target="_blank"
+                className="button-small button--flex"
+                id="resume-button-1"
+              >
                 Resume
               </a>
             </li>

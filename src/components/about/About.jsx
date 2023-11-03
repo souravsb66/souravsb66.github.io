@@ -16,7 +16,7 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">
+          <p className="about__description" id="user-detail-intro">
             Aspiring Full Stack Developer with Expertise in CSS, HTML, JS, and
             React. Proficient in data structures and basic algorithms. Skilled
             in effective communication and collaborative teamwork, with strong
