@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Contacts from './components/contacts/Contacts';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <About />
         <Skills />
         <Contacts />
+        <Footer />
       </main>
     </div>
   );
