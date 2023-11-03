@@ -17,8 +17,8 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <header className="header">
-      <nav className="nav container">
+    <header className="header ">
+      <nav className="nav-menu container nav-menu">
         <a href="index.html" className="nav__logo">
           Sourav
         </a>
@@ -30,7 +30,9 @@ const Header = () => {
                 href="#home"
                 onClick={() => setActiveNav("#home")}
                 className={
-                  activeNav === "#home" ? "nav__link active-link" : "nav__link"
+                  activeNav === "#home"
+                    ? "nav-link home active-link"
+                    : "nav-link home"
                 }
               >
                 <i className="uil uil-home nav__icon"></i> Home
@@ -41,7 +43,9 @@ const Header = () => {
                 href="#about"
                 onClick={() => setActiveNav("#about")}
                 className={
-                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
+                  activeNav === "#about"
+                    ? "nav-link about active-link"
+                    : "nav-link about"
                 }
               >
                 <i className="uil uil-user nav__icon"></i> About
@@ -53,8 +57,8 @@ const Header = () => {
                 onClick={() => setActiveNav("#skills")}
                 className={
                   activeNav === "#skills"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                    ? "nav-link skills active-link"
+                    : "nav-link skills"
                 }
               >
                 <i className="uil uil-cog  nav__icon"></i> Skills
@@ -66,8 +70,8 @@ const Header = () => {
                 onClick={() => setActiveNav("#projects")}
                 className={
                   activeNav === "#projects"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                    ? "nav-link projects active-link"
+                    : "nav-link projects"
                 }
               >
                 <i class="uil uil-file-info-alt nav__icon"></i> Projects
@@ -79,11 +83,17 @@ const Header = () => {
                 onClick={() => setActiveNav("#contact")}
                 className={
                   activeNav === "#contact"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                    ? "nav-link contact active-link"
+                    : "nav-link contact"
                 }
               >
                 <i className="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+
+            <li id="resume-link-1" className="nav__item" onClick={() => window.open("https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing")}>
+              <a href={"../../Assets/Sourav_Biswas_Resume.pdf"} download target="_blank" className="button-small button--flex">
+                Resume
               </a>
             </li>
           </ul>

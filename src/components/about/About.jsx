@@ -22,8 +22,8 @@ const About = () => {
             in effective communication and collaborative teamwork, with strong
             leadership capabilities.
           </p>
-
-          <a download="" href={resume} className="button button--flex">
+          
+          <a id="resume-link-2"  href={"../../Assets/Sourav_Biswas_Resume.pdf"} download target="_blank" className="button button--flex">
             Resume
             <svg
               class="button__icon"
