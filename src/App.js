@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollup/ScrollUp';
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
         <About />
         <Skills />
         <Contacts />
-        <Footer />
       </main>
+      
+      <Footer />
+      <ScrollUp />
     </div>
   );
 }
