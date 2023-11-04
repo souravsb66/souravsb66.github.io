@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.22c77e03.css",
-    "main.js": "/static/js/main.7c7b00a2.js",
+    "main.css": "/static/css/main.445e57c7.css",
+    "main.js": "/static/js/main.d2260862.js",
     "static/js/787.50c23c70.chunk.js": "/static/js/787.50c23c70.chunk.js",
     "static/media/Sourav_Biswas_Resume.pdf": "/static/media/Sourav_Biswas_Resume.55b8d44451982626df44.pdf",
     "static/media/profile2.png": "/static/media/profile2.edce9b1958903fb6cdd2.png",
@@ -11,12 +11,12 @@
     "static/media/work4.jpeg": "/static/media/work4.ed770d0e93a388a72dc3.jpeg",
     "static/media/work1.jpeg": "/static/media/work1.dc7b5d553e78c3621cc6.jpeg",
     "index.html": "/index.html",
-    "main.22c77e03.css.map": "/static/css/main.22c77e03.css.map",
-    "main.7c7b00a2.js.map": "/static/js/main.7c7b00a2.js.map",
+    "main.445e57c7.css.map": "/static/css/main.445e57c7.css.map",
+    "main.d2260862.js.map": "/static/js/main.d2260862.js.map",
     "787.50c23c70.chunk.js.map": "/static/js/787.50c23c70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c77e03.css",
-    "static/js/main.7c7b00a2.js"
+    "static/css/main.445e57c7.css",
+    "static/js/main.d2260862.js"
   ]
 }
