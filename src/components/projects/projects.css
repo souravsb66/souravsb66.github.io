@@ -40,10 +40,20 @@
     object-fit: cover;
 }
 
-.work__title {
+.project-title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+}
+
+.project-card-tech-stack {
+    margin-right: 0.5rem;
+    font-size: var(--smaller-font-size);
+    color: var(--title-color);
+}
+
+.work__button-div {
+    display: flex;
 }
 
 .work__button {
@@ -55,12 +65,13 @@
 }
 
 .work__button-icon {
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: 0.4s;
+    margin: 0.5rem 0.5rem 0 0;
 }
 
 .work__button:hover .work__button-icon {
-    transform: translateX(0.25rem);
+    transform: scale(1.1);
 }
 
 .active-work {
@@ -83,7 +94,7 @@
         margin-bottom: 0.75rem;
     }
 
-    .work__title {
+    .project-title {
         margin-bottom: 0.25rem;
     }
 }

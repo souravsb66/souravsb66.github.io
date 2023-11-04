@@ -12,7 +12,17 @@ const Backend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">Node JS</h3>
+              <h3 className="skills-card-name">Node JS</h3>
+              <span className="skills__level">Basic</span>
+              <img src="" alt="" class="skills-card-img"></img>
+            </div>
+          </div>
+
+          <div className="skills__data skills-card">
+            <i class='bx bxs-badge-check' ></i>
+
+            <div>
+              <h3 className="skills-card-name">Express</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -21,16 +31,7 @@ const Backend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">Express</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data skills-card">
-            <i class='bx bxs-badge-check' ></i>
-
-            <div>
-              <h3 className="skills__name">Java</h3>
+              <h3 className="skills-card-name">Java</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -41,7 +42,7 @@ const Backend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">Mongo DB</h3>
+              <h3 className="skills-card-name">Mongo DB</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -50,7 +51,7 @@ const Backend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">Sanity</h3>
+              <h3 className="skills-card-name">Sanity</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -59,7 +60,7 @@ const Backend = () => {
             {/* <i class='bx bxs-badge-check' ></i> */}
 
             <div>
-              <h3 className="skills__name"></h3>
+              <h3 className="skills-card-name"></h3>
               <span className="skills__level"></span>
             </div>
           </div>

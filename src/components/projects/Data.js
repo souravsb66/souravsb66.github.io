@@ -8,25 +8,41 @@ export const projectsData = [
         id: 1,
         image: work1,
         title: "SwiftPay",
-        category: 'React'
+        category: 'React',
+        description: `This is my new project`,
+        tech_stack: ["React", "Redux", "HTML", "CSS"],
+        github: "https://github.com/souravsb66/swiftpay",
+        live: "https://warlike-current-5989-gamma.vercel.app/"
     },
     {
         id: 2,
         image: work2,
         title: "WanderWorld",
-        category: `JavaScript`
+        category: `JavaScript`,
+        description: `This is my new project`,
+        tech_stack: ["Javascript", "HTML", "CSS"],
+        github: "https://github.com/souravsb66/lean-run-8778",
+        live: "https://wanderworld.vercel.app/"
     },
     {
         id: 3,
         image: work3,
         title: "Crunch Designs",
-        category: "JavaScript"
+        category: "JavaScript",
+        description: `This is my new project`,
+        tech_stack: ["Javascript", "HTML", "CSS"],
+        github: "https://github.com/souravsb66/frequent-thumb-7462",
+        live: "https://crunch-designs.vercel.app/"
     },
     {
         id: 4,
         image: work4,
         title: "Puppy Flipbook",
-        category: "Animation"
+        category: "Animation",
+        description: `This is my new project`,
+        tech_stack: ["CSS", "HTML", "JS"],
+        github: "https://github.com/souravsb66/puppy-flipbook",
+        live: "https://puppy-flipbook.vercel.app/"
     }
 ]
 

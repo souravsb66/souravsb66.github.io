@@ -38,6 +38,7 @@ const Header = () => {
                 <i className="uil uil-home nav__icon"></i> Home
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#about"
@@ -51,6 +52,7 @@ const Header = () => {
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#skills"
@@ -64,6 +66,7 @@ const Header = () => {
                 <i className="uil uil-cog  nav__icon"></i> Skills
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#projects"
@@ -77,6 +80,7 @@ const Header = () => {
                 <i class="uil uil-file-info-alt nav__icon"></i> Projects
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#contact"
@@ -91,23 +95,25 @@ const Header = () => {
               </a>
             </li>
 
-            <li
-              className="nav__item nav-link resume"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
-                )
-              }
-            >
-              <a
-                href={"../../Assets/Sourav_Biswas_Resume.pdf"}
-                download="Sourav_Biswas_Resume"
-                target="_blank"
-                className="button-small button--flex"
-                id="resume-link-1"
+            <li className="nav__item">
+              <div
+                className="nav-link resume"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
+                  )
+                }
               >
-                Resume
-              </a>
+                <a
+                  href={"../../Assets/Sourav_Biswas_Resume.pdf"}
+                  download="Sourav_Biswas_Resume"
+                  target="_blank"
+                  className="button-small button--flex"
+                  id="resume-link-1"
+                >
+                  Resume
+                </a>
+              </div>
             </li>
           </ul>
 

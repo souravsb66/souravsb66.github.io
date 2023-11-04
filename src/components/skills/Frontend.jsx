@@ -11,8 +11,9 @@ const Frontend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">HTML</h3>
+              <h3 className="skills-card-name">HTML</h3>
               <span className="skills__level">Basic</span>
+              <img src="" alt="" class="skills-card-img"></img>
             </div>
           </div>
 
@@ -20,7 +21,7 @@ const Frontend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">CSS</h3>
+              <h3 className="skills-card-name">CSS</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -29,7 +30,7 @@ const Frontend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">JavaScript</h3>
+              <h3 className="skills-card-name">JavaScript</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -40,7 +41,7 @@ const Frontend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">React</h3>
+              <h3 className="skills-card-name">React</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -49,7 +50,7 @@ const Frontend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">Chakra UI</h3>
+              <h3 className="skills-card-name">Chakra UI</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -58,7 +59,7 @@ const Frontend = () => {
             <i class='bx bxs-badge-check' ></i>
 
             <div>
-              <h3 className="skills__name">Git</h3>
+              <h3 className="skills-card-name">Git</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>

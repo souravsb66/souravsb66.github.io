@@ -40,7 +40,7 @@
     color: var(--title-color);
 }
 
-.skills__name {
+.skills-card-name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
@@ -74,7 +74,7 @@
     .skills__box {
         column-gap: 1.25rem;
     }
-    .skills__name {
+    .skills-card-name {
         font-size: var(--small-font-size);
     }
 }
