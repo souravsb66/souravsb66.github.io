@@ -25,7 +25,7 @@ const Contacts = () => {
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
 
-          <div className="contant__info">
+          <div className="contant__info contact_links">
             <div className="contact__card" id="contact-email">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
@@ -37,6 +37,38 @@ const Contacts = () => {
                 className="contact__button"
               >
                 Write me{" "}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div className="contact__card" id="contact-github">
+              <i className="bx bxl-github contact__card-icon"></i>
+
+              <h3 className="contact__card-title">Github</h3>
+              <span className="contact__card-data">souravsb66</span>
+
+              <a
+                href="https://github.com/souravsb66"
+                target="_blank"
+                className="contact__button"
+              >
+                Write me
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div className="contact__card" id="contact-linkedin">
+              <i className="bx bxl-linkedin contact__card-icon"></i>
+
+              <h3 className="contact__card-title">LinkedIn</h3>
+              <span className="contact__card-data">sourav66</span>
+
+              <a
+                href="https://www.linkedin.com/in/sourav66/"
+                className="contact__button"
+                target="_blank"
+              >
+                Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -56,18 +88,7 @@ const Contacts = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-
-            <div className="contact__card" id="contact-github">
-              <i className="bx bxl-github contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Github</h3>
-              <span className="contact__card-data">souravsb66</span>
-
-              <a href="https://github.com/souravsb66" target="_blank" className="contact__button">
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
+            
           </div>
         </div>
 
@@ -128,6 +149,7 @@ const Contacts = () => {
             </button>
           </form>
         </div>
+
       </div>
     </section>
   );

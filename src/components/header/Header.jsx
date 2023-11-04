@@ -92,7 +92,6 @@ const Header = () => {
             </li>
 
             <li
-              id="resume-link-1"
               className="nav__item nav-link resume"
               onClick={() =>
                 window.open(
@@ -102,10 +101,10 @@ const Header = () => {
             >
               <a
                 href={"../../Assets/Sourav_Biswas_Resume.pdf"}
-                download
+                download="Sourav_Biswas_Resume"
                 target="_blank"
                 className="button-small button--flex"
-                id="resume-button-1"
+                id="resume-link-1"
               >
                 Resume
               </a>

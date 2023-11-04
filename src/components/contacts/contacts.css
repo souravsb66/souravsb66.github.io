@@ -3,6 +3,7 @@
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
+    /* margin: 0; */
 }
 
 .contact__title {
@@ -12,11 +13,26 @@
     margin-bottom: var(--mb-1-5);
 }
 
+
 .contact__info {
     display: grid;
     row-gap: 1rem;
     grid-template-columns: 300px;
 }
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_links {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 1.5rem;
+}
+
 
 .contact__card {
     background-color: var(--container-color);
@@ -138,10 +154,19 @@
     .contact__form {
         width: 100%;
     }
+
+    .contact_links {
+        display: flex;
+        flex-direction: column;
+    }
  
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-
+    
+    .contact_links {
+        display: flex;
+        flex-direction: column;
+    }
 }
