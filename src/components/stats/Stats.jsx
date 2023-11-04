@@ -22,9 +22,9 @@ const Stats = () => {
           <a
             href="https://git.io/streak-stats"
             target="_blank"
-            id="github-streak-stats"
-          >
+            >
             <img
+              id="github-streak-stats"
               className="stats__img"
               src="https://github-readme-streak-stats.herokuapp.com?user=souravsb66&theme=dark&hide_border=true"
               alt="GitHub Streak"
@@ -34,9 +34,9 @@ const Stats = () => {
           <a
             href="https://github.com/anuraghazra/github-readme-stats"
             target="_blank"
-            id="github-stats-card"
-          >
+            >
             <img
+              id="github-stats-card"
               className="stats__img"
               align="center"
               src="https://github-readme-stats.vercel.app/api?username=souravsb66&theme=dark&show_icons=true"
@@ -47,10 +47,10 @@ const Stats = () => {
         <div id="github-lang-div">
           <a
             href="https://github.com/anuraghazra/convoychat"
-            id="github-top-langs"
             target="_blank"
-          >
+            >
             <img
+              id="github-top-langs"
               className="stats__img"
               align="center"
               src="https://github-readme-stats.vercel.app/api/top-langs?username=souravsb66&theme=dark&langs_count=8&layout=compact"
