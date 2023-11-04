@@ -13,7 +13,7 @@ const Frontend = () => {
             <div>
               <h3 className="skills-card-name">HTML</h3>
               <span className="skills__level">Basic</span>
-              <img src="" alt="" class="skills-card-img"></img>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 

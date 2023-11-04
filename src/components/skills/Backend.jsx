@@ -14,7 +14,7 @@ const Backend = () => {
             <div>
               <h3 className="skills-card-name">Node JS</h3>
               <span className="skills__level">Basic</span>
-              <img src="" alt="" class="skills-card-img"></img>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
