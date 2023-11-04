@@ -1,4 +1,33 @@
-.container__content {
+#stats-div {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+#github-lang-div {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    #stats-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
 }
