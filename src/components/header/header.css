@@ -48,6 +48,12 @@
   display: none;
 }
 
+#resume-button-1 {
+  background-color: var(--title-color);
+  color: var(--body-color);
+  font-size: var(--small-font-size);
+}
+
 /* Active Links */
 .active-link,
 .nav-link:hover {

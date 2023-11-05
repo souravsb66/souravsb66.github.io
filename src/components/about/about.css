@@ -44,6 +44,16 @@
     margin-bottom: var(--mb-2-5);
 }
 
+#resume-button-2 {
+    background-color: var(--title-color);
+    color: var(--body-color);
+    font-size: var(--small-font-size);
+}
+
+#resume-button-2:hover {
+    background-color: var(--title-color-dark);
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

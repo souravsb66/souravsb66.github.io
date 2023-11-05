@@ -96,25 +96,45 @@ const Header = () => {
             </li>
 
             <li className="nav__item">
-              <div
-                className="nav-link resume"
-                onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
-                  )
-                }
+              <a
+                href={"../../Assets/Sourav_Biswas_Resume.pdf"}
+                download="Sourav_Biswas_Resume"
+                target="_blank"
+                className="nav-link resume button-small button--flex"
+                id="resume-link-1"
               >
-                <a
-                  href={"../../Assets/Sourav_Biswas_Resume.pdf"}
-                  download="Sourav_Biswas_Resume"
-                  target="_blank"
-                  className="button-small button--flex"
-                  id="resume-link-1"
+                <button
+                  id="resume-button-1"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
+                    )
+                  }
                 >
                   Resume
-                </a>
-              </div>
+                </button>
+              </a>
             </li>
+
+            {/* <div
+              className="nav-link resume"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
+                )
+              }
+            >
+              <a
+                href={"../../Assets/Sourav_Biswas_Resume.pdf"}
+                download="Sourav_Biswas_Resume"
+                target="_blank"
+                className="button-small button--flex"
+                id="resume-link-1"
+              >
+                Resume
+              </a>
+            </div> */}
+
           </ul>
 
           <i
