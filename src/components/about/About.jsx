@@ -24,7 +24,7 @@ const About = () => {
           </p>
 
           <a
-            href={"../../Assets/Sourav_Biswas_Resume.pdf"}
+            href={"https://drive.google.com/uc?export=download&id=1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK"}
             download="Sourav_Biswas_Resume"
             target="_blank"
             id="resume-link-1"
@@ -32,11 +32,11 @@ const About = () => {
             <button
               id="resume-button-2"
               className="button button--flex"
-              onClick={() =>
-                window.open(
-                  "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
-                )
-              }
+              // onClick={() =>
+              //   window.open(
+              //     "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
+              //   )
+              // }
             >
               Resume
               <svg

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import Resume from "../../Assets/Sourav_Biswas_Resume.pdf"
 
 const Header = () => {
   window.addEventListener("scroll", function () {
@@ -97,19 +98,19 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href={"../../Assets/Sourav_Biswas_Resume.pdf"}
-                download="Sourav_Biswas_Resume"
+                href={"https://drive.google.com/uc?export=download&id=1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK"}
+                download
                 target="_blank"
                 className="nav-link resume button-small button--flex"
                 id="resume-link-1"
               >
                 <button
                   id="resume-button-1"
-                  onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
-                    )
-                  }
+                  // onClick={() =>
+                  //   window.open(
+                  //     "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
+                  //   )
+                  // }
                 >
                   Resume
                 </button>

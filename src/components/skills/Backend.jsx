@@ -24,6 +24,7 @@ const Backend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">Express</h3>
               <span className="skills__level">Basic</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
@@ -33,6 +34,7 @@ const Backend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">Java</h3>
               <span className="skills__level">Basic</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
         </div>
@@ -44,6 +46,7 @@ const Backend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">Mongo DB</h3>
               <span className="skills__level">Intermediate</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
@@ -53,6 +56,7 @@ const Backend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">Sanity</h3>
               <span className="skills__level">Basic</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
@@ -62,6 +66,7 @@ const Backend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name"></h3>
               <span className="skills__level"></span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
         </div>

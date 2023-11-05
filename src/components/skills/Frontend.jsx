@@ -23,6 +23,7 @@ const Frontend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">CSS</h3>
               <span className="skills__level">Intermediate</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
@@ -32,6 +33,7 @@ const Frontend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">JavaScript</h3>
               <span className="skills__level">Intermediate</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
         </div>
@@ -43,6 +45,7 @@ const Frontend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">React</h3>
               <span className="skills__level">Intermediate</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
@@ -52,6 +55,7 @@ const Frontend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">Chakra UI</h3>
               <span className="skills__level">Basic</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
 
@@ -61,6 +65,7 @@ const Frontend = () => {
             <div className="skills-card">
               <h3 className="skills-card-name">Git</h3>
               <span className="skills__level">Basic</span>
+              <img src="" alt="" className="skills-card-img"></img>
             </div>
           </div>
         </div>
