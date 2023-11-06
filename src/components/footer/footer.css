@@ -54,6 +54,12 @@
     font-size: var(--smaller-font-size);
 }
 
+.footer__logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*=============== BREAKPOINTS ===============*/

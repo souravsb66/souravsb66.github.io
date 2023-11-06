@@ -1,11 +1,14 @@
 import React from "react";
 import "./footer.css"
+import logo from "../../Assets/Logo2.png"
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Sourav</h1>
+        <div className="footer__logo-div">
+          <img src={logo} alt="Sourav Biswas" className="footer__logo-img"/>
+        </div>
 
         <ul className="footer__list">
           <li>
@@ -37,19 +40,19 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/souravbiswasss/"
+            href="https://twitter.com/HonestTalksYT"
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-twitter"></i>
           </a>
 
           <a
-            href="https://www.instagram.com/souravbiswasss/"
+            href="https://www.facebook.com/souravsb66/"
             className="footer__social-link "
             target="_blank"
           >
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-facebook"></i>
           </a>
         </div>
 

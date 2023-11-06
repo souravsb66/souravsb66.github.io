@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
-import Resume from "../../Assets/Sourav_Biswas_Resume.pdf"
+import logo from "../../Assets/Logo3.png"
+import name from "../../Assets/Name.gif"
 
 const Header = () => {
   window.addEventListener("scroll", function () {
@@ -21,7 +22,7 @@ const Header = () => {
     <header className="header ">
       <nav className="container" id="nav-menu">
         <a href="index.html" className="nav__logo">
-          Sourav
+          <img src={logo} alt="S B" className="nava__logo-img"/>
         </a>
 
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
