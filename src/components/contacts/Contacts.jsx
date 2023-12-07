@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contacts.css";
+import { toast } from 'react-toastify';
 
 const Contacts = () => {
   const form = useRef();
@@ -13,6 +14,17 @@ const Contacts = () => {
       form.current,
       "8V-74UE5K0qRryKI9"
     );
+
+    toast('Message Sent', {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "dark",
+      });
+
     e.target.reset();
   };
 

@@ -3,6 +3,7 @@ import "./about.css";
 import resume from "../../Assets/Sourav_Biswas_Resume.pdf";
 import AboutImg from "../../Assets/profile2.png";
 import Info from "./Info";
+import { downloadResume } from "../../utils/DownloadResume";
 
 const About = () => {
   return (
@@ -23,21 +24,17 @@ const About = () => {
             leadership capabilities.
           </p>
 
-          <a
+          {/* <a
             href={"https://drive.google.com/uc?export=download&id=1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK"}
             download="Sourav_Biswas_Resume"
             target="_blank"
             id="resume-link-1"
-          >
-            <button
-              id="resume-button-2"
-              className="button button--flex"
-              // onClick={() =>
-              //   window.open(
-              //     "https://drive.google.com/file/d/1phAUQb5vx3etF7i_66hp6CKW7zz9-HYK/view?usp=sharing"
-              //   )
-              // }
-            >
+          > */}
+             <button
+                id="resume-button-2"
+                className="button button--flex"
+                onClick={downloadResume}
+              >
               Resume
               <svg
                 class="button__icon"
@@ -65,7 +62,7 @@ const About = () => {
                 ></path>
               </svg>
             </button>
-          </a>
+          {/* </a> */}
 
           {/* <a
             id="resume-link-2"
