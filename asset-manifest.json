@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06612f94.css",
-    "main.js": "/static/js/main.ce9cb98b.js",
+    "main.js": "/static/js/main.d6066adb.js",
     "static/js/787.50c23c70.chunk.js": "/static/js/787.50c23c70.chunk.js",
     "static/media/Sourav_Biswas_Resume.pdf": "/static/media/Sourav_Biswas_Resume.55b8d44451982626df44.pdf",
     "static/media/Name.gif": "/static/media/Name.3e2d4959a80095cd02ab.gif",
@@ -15,11 +15,11 @@
     "static/media/Logo2.png": "/static/media/Logo2.5a0acd31f383194070e6.png",
     "index.html": "/index.html",
     "main.06612f94.css.map": "/static/css/main.06612f94.css.map",
-    "main.ce9cb98b.js.map": "/static/js/main.ce9cb98b.js.map",
+    "main.d6066adb.js.map": "/static/js/main.d6066adb.js.map",
     "787.50c23c70.chunk.js.map": "/static/js/787.50c23c70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06612f94.css",
-    "static/js/main.ce9cb98b.js"
+    "static/js/main.d6066adb.js"
   ]
 }
